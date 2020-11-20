@@ -1,0 +1,38 @@
+#page-landing{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+    display: flex;
+    background-color: #BDE4E7;
+}
+
+
+
+#container {
+    margin: auto;
+
+    width: (90%, 112rem);
+}
+
+#container .rodape 
+h1,
+p {
+    height: 16vh;
+}
+
+#container .rodape h1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#container .rodape p {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    margin: 0.2rem;
+}
+
