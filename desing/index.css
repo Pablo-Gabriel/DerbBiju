@@ -5,7 +5,9 @@
     min-height: 100vh;
 
     display: flex;
-    background-color: #BDE4E7;
+    /* background-color: #BDE4E7; */
+    background-color: transparent;
+    background-image: url(https://images.pexels.com/photos/3373739/pexels-photo-3373739.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
 
 
