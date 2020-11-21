@@ -5,9 +5,9 @@
     min-height: 100vh;
 
     display: flex;
-    /* background-color: #BDE4E7; */
-    background-color: transparent;
-    background-image: url(https://images.pexels.com/photos/3373739/pexels-photo-3373739.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-color: #BDE4E7;
+    background-image: url("https://cdn.pixabay.com/photo/2020/01/26/11/46/paper-flower-background-4794429_960_720.jpg");
+    background-size: cover;
 }
 
 
