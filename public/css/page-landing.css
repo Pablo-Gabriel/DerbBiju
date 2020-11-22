@@ -6,7 +6,7 @@
 
 
     background-color: white;
-    background: url("../imagem/paper-flower-background-4794429_1920.jpg")
+    background: url("../image/paper-flower-background-4794429_1920.jpg")
     no-repeat 80%;
 
     background-size: cover;
@@ -81,7 +81,7 @@ p {
         align-items: center;
         text-align: center;
 
-        background-image: url("../imagem/paper-flower-background-4794429_1920.jpg");
+        background-image: url("../image/paper-flower-background-4794429_1920.jpg");
         background-size: cover;
     }
 
