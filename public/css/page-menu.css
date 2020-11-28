@@ -1,33 +1,43 @@
 #page-landing{
     text-align: center;
     min-height: 100vh;
-
-    display: flex;
-
-
-    background-color: white;
-    background: url("../image/paper-flower-background-4794429_1920.jpg")
-    no-repeat 80%;
-
-    background-size: cover;
+    
+    background: #EBF2F5;
+    /* background-image: url("../image/pexels-anderson-guerra-1121110.jpg");
+    background-size: cover; */
 }
 
 
 
 #container {
     margin: auto;
+    justify-content: center;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20vh 10vh 50vh 20vh;
+    grid-template-areas: "h" 
+                         "a"
+                         "m"
+                         "f";
+    grid-gap: 10px;
 
     width: min(90%, 112rem);
 }
 
+header {
+    margin: 0;
+    background: #F4CFE2;
+
+}
+
 #container .rodape 
-h1,
-p {
+h1 {
     height: 16vh;
+    grid-area: h;
 }
 
 #container .rodape h1 {
-    display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -35,22 +45,10 @@ p {
     color: #ffdd48;
 
     filter: contrast(80%);
+
 }
 
-#container .rodape p {
-    display: flex;
-    align-items: top;
-    justify-content: center;
-
-    margin: auto;
-
-    color: #ffdd48;
-
-    filter: contrast(70%);
-}
-
-#bottom .bottom a {
-    display: flex;
+#container aside .categorias bottom {
     align-items: center;
     justify-content: center;
 
@@ -63,16 +61,23 @@ p {
     border-radius: 2rem;
     opacity: 80%;    
 
-    text-decoration: none;
-    
+    grid-area: a;
+
     color: gray;
 
     transition: background 250ms;
 }
 
-#bottom .bottom a:hover {
+#container aside .categorias bottom:hover {
     background-color: #ffdd48;
 }
+
+main {
+    grid-area: m;
+}
+
+
+
 
 /*Desktop version*/
 @media (min-width: 760px) {
